@@ -22,13 +22,12 @@ This React application provides real-time text analysis and word details using t
 - **Definition:** Provides the meaning of the selected word.
 - **Part of Speech:** Displays the grammatical category of the word.
 - **Synonyms:** Lists other words with similar meanings.
-- **Examples:** Presents example sentences using the word.
+- **Antonyms:** Presents example sentences using the word.
 
 ### 3. User-friendly Interface
 
 - Clean and intuitive design for easy user interaction.
-- Real-time updates for prompt feedback.
-- Clickable words for quick word details.
+
 
 ### 4. Secure API Key Handling
 
@@ -38,7 +37,7 @@ This React application provides real-time text analysis and word details using t
 ### 5. Toast Notifications
 
 - Utilizes `react-toastify` for user-friendly notifications.
-- Provides feedback for actions such as fetching word details.
+- Provides feedback for actions such as invalid word or word not found.
 
 ### 6. External Dependencies
 
