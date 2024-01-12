@@ -60,6 +60,13 @@ const WordComponet = () => {
       setWord("");
     }
   };
+  let a;
+  wordDetails?.forEach((word) => {
+    if (word.antonyms) {
+      a = word.antonyms[0];
+    }
+  });
+  console.log(a, 1);
 
   // Show loading till the api is called
   if (loading) return <p className="text-3xl animate-pulse">Loading...</p>;

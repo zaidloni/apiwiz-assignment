@@ -1,35 +1,69 @@
-Requirement 1:
-Real-time Text Analyzer Build a text analyzer that calculates the following metrics in real-time as the user types a paragraph:
+# Text Analyzer App
+Live Demo
+Visit https://apiwiz-assignment-zaidloni.netlify.app/
 
-1. Number of Characters
-2. Number of Words
-3. Number of Sentences
-4. Number of Paragraphs
-5. Number of Spaces
-6. Number of Punctuations
+## Overview
 
-Please ensure that the calculations are dynamic and update in real-time as the user modifies the input text.
+This React application provides real-time text analysis and word details using the WordsAPI.
 
-Requirement 2:
-Show Word Details.
-We have attached a link to the api which will give definitions to any word
-The API response will contain an array of objects, each representing properties like definition, parts of speech, synonyms, types, and examples of the entered word. Consider only the first object from the array.
+## Features
 
-Use the values obtained from the API response to create a user interface (UI) that matches the Figma design provided to you. The UI should display the relevant information in a clear and visually appealing manner.
+### 1. Real-time Text Analysis
 
-Figma design - https://www.figma.com/file/snrCCrKnravQqK2ZB1t49M/UI-Hiring?type=design&node-id=0%3A1&mode=design&t=KCBI4Rx0562aNc2T-1
-Api reference - https://www.wordsapi.com
+- **Characters:** Displays the total count of characters.
+- **Words:** Shows the count of words.
+- **Sentences:** Calculates the number of sentences.
+- **Paragraphs:** Counts the paragraphs.
+- **Spaces:** Displays the count of spaces between words.
+- **Punctuations:** Shows the count of punctuation marks.
 
-Submission Instructions: Update your source code which will meet both the requirements specified above. And do host your webpage on the internet so that we can try it on live (Use any free hosting like github pages or heroku etc).
-** Please don't send the zipped code, instead mail us back the github url and a proper readme doc **
+### 2. Word Details
 
-Please submit your tasks by 14th jan 2023 (2PM).
-If you have any questions or encounter challenges during the tasks, feel free to reach out to me for clarification.
+- **Definition:** Provides the meaning of the selected word.
+- **Part of Speech:** Displays the grammatical category of the word.
+- **Synonyms:** Lists other words with similar meanings.
+- **Examples:** Presents example sentences using the word.
 
-We appreciate your dedication to this process and look forward to reviewing your work. Best of luck!
+### 3. User-friendly Interface
 
-Note:
+- Clean and intuitive design for easy user interaction.
+- Real-time updates for prompt feedback.
+- Clickable words for quick word details.
 
-- You can use ReactJS / VueJS / Angular JS to complete the task
-- Reply to this email with your github and hosted urls
-- refer to https://www.wordsapi.com/#try api reference to get all wording details
+### 4. Secure API Key Handling
+
+- Sensitive information stored securely in the `.env` file.
+- Ensures the API key is not exposed in the source code.
+
+### 5. Toast Notifications
+
+- Utilizes `react-toastify` for user-friendly notifications.
+- Provides feedback for actions such as fetching word details.
+
+### 6. External Dependencies
+
+- **React:** A JavaScript library for building user interfaces.
+- **Tailwind CSS:** A utility-first CSS framework for responsive web design.
+- **React Toastify:** A notification library for React applications.
+- **WordsAPI:** An external API for retrieving word details.
+
+## Requirements
+
+- Node.js (v14.x or higher)
+- React (v17.x or higher)
+
+## Getting Started
+
+1. **Clone the repository:**
+
+```
+   git clone
+   npm install
+   npm run dev
+```
+
+Start the development server:
+
+Open your browser and navigate to http://localhost:3000.
+
+
