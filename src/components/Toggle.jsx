@@ -1,6 +1,6 @@
 const Toggle = ({ selectedToggle, setSelectedToggle }) => {
   return (
-    <div className="mt-8 rounded-[10px] flex p-1 border gray  gray w-[640px] gap-1 mb-4">
+    <div className="mt-8 rounded-[10px] flex p-1 border border-gray  bg-gray w-[640px] gap-1 mb-4">
       {/* Onclick changing the selectedtogghle to word */}
       <div
         onClick={() => setSelectedToggle("word")}

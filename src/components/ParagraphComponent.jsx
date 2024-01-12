@@ -66,51 +66,51 @@ const ParagraphComponent = () => {
       <textarea
         onChange={handleParaChange}
         placeholder="Type, or copy/paste your content here."
-        className="w-full placeholder:text-gray_500 shadow-inputShadow text-dark py-2 px-3 resize-none outline-none border gray_300 rounded-md h-60"
+        className="w-full placeholder:text-gray_500 shadow-inputShadow text-dark py-2 px-3 resize-none outline-none border border-gray_300 rounded-md h-60"
       ></textarea>
 
       {/* table showing details */}
       <table className="w-full border gray mt-11">
         <thead>
           <tr className="bg-white h-11">
-            <th className="text-gray font-medium border gray text-left pl-4">
+            <th className="text-gray font-medium border border-gray text-left pl-4">
               Characters
             </th>
-            <th className="text-gray font-medium border gray text-left pl-4">
+            <th className="text-gray font-medium border border-gray text-left pl-4">
               Words
             </th>
-            <th className="text-gray font-medium border gray text-left pl-4">
+            <th className="text-gray font-medium border border-gray text-left pl-4">
               Sentences
             </th>
-            <th className="text-gray font-medium border gray text-left pl-4">
+            <th className="text-gray font-medium border border-gray text-left pl-4">
               Paragraphs
             </th>
-            <th className="text-gray font-medium border gray text-left pl-4">
+            <th className="text-gray font-medium border border-gray text-left pl-4">
               Spaces
             </th>
-            <th className="text-gray font-medium border gray text-left pl-4">
+            <th className="text-gray font-medium border border-gray text-left pl-4">
               Punctutations
             </th>
           </tr>
         </thead>
         <tbody>
           <tr className="bg-gray h-12">
-            <td className="text-dark font-medium pl-4  border gray">
+            <td className="text-dark font-medium pl-4  border border-gray">
               {paraDetails?.characters}
             </td>
-            <td className="text-dark font-medium pl-4  border gray">
+            <td className="text-dark font-medium pl-4  border border-gray">
               {paraDetails?.words}
             </td>
-            <td className="text-dark font-medium pl-4  border gray">
+            <td className="text-dark font-medium pl-4  border border-gray">
               {paraDetails?.sentences}
             </td>
-            <td className="text-dark font-medium pl-4  border gray">
+            <td className="text-dark font-medium pl-4  border border-gray">
               {paraDetails?.paragraphs}
             </td>
-            <td className="text-dark font-medium pl-4  border gray">
+            <td className="text-dark font-medium pl-4  border border-gray">
               {paraDetails?.spaces}
             </td>
-            <td className="text-dark font-medium pl-4  border gray">
+            <td className="text-dark font-medium pl-4  border border-gray">
               {paraDetails?.punctuations}
             </td>
           </tr>

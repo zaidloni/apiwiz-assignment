@@ -70,7 +70,7 @@ const WordComponet = () => {
       <div className="flex gap-6 ">
         <input
           onChange={(e) => setWord(e.target.value)}
-          className="flex-1 outline-none border gray_300 rounded-md h-10 pl-3 placeholder:text-gray_500 text-dark"
+          className="flex-1 outline-none border border-gray_300 rounded-md h-10 pl-3 placeholder:text-gray_500 text-dark"
           type="text"
           placeholder="Type a Word.."
         />
@@ -83,7 +83,7 @@ const WordComponet = () => {
       </div>
 
       {/* Characters & Words table */}
-      <table className="border gray_200 w-1/3 mt-11">
+      <table className="border border-gray_200 w-1/3 mt-11">
         <thead>
           <tr className="h-11 bg-white text-left border gray_200">
             <th className="text-gray font-medium border gray_200 pl-4">
@@ -105,7 +105,7 @@ const WordComponet = () => {
       </table>
 
       {/* Details */}
-      <div className="border flex gap-3 gray_300 rounded py-6 px-4 mt-4">
+      <div className="border flex gap-3 border-gray_300 rounded py-6 px-4 mt-4">
         <div>
           <p className="text-gray font-medium leading-none">Defination:</p>
           <p className="text-gray font-medium my-3 leading-none">
