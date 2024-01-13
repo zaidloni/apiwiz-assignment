@@ -29,27 +29,6 @@ const ParagraphComponent = () => {
     // Counting punctuations
     const punctuations = (text.match(/[.,'":?!()[\]{}\-–—…:;]/g) || []).length;
 
-    // // counting characters
-    // let characters = text.length;
-
-    // // Counting words
-    // const words = text.trim() === "" ? 0 : text.trim().split(/\s+/).length;
-
-    // // Counting sentences
-    // const sentences = text
-    //   .split(/[.!?]+/)
-    //   .filter((sentence) => sentence.trim() !== "").length;
-
-    // // Counting paragraphs
-    // const paragraphs = text
-    //   .split(/\n/)
-    //   .filter((paragraph) => paragraph.trim() !== "").length;
-
-    // // couting spaces
-    // let spaces = text.split(" ").length - 1;
-
-    // // counting punctuations
-    // let punctuations = (text.match(/[.,'":?!()[\]{}\-–—…:;]/g) || []).length;
 
     // setting the values in paraDetails
     setParaDetails(() => ({
